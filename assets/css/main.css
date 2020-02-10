@@ -1,11 +1,8 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600"); */
+/* @import url('https://fonts.googleapis.com/css?family=Teko&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -141,9 +138,12 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		/* font-family: "Source Sans Pro", sans-serif; */
+		/* font-family: 'Teko', sans-serif; */
+		/* font-family: 'Patua One', cursive; */
+		font-family: 'Merriweather', serif;
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: 0.9rem;
 		line-height: 1.65;
 	}
 
@@ -152,13 +152,17 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
-		color: inherit;
+		color: #d4af37;
+		
 	}
-
-		a:hover {
+	nav ul a { color: inherit;}
+	footer a { color: inherit; border-bottom: dotted 1px rgba(255, 255, 255, 0.5); }
+    footer a:hover {
+			/* border-bottom: dotted 1px rgba(255, 255, 255, 0.5); */
 			border-bottom-color: transparent;
+			color: lime;
+			
 		}
 
 	strong, b {
